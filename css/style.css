@@ -1,0 +1,124 @@
+body {
+  color: #000;
+  font-family: 'Moderat', 'Helvetica', sans-serif;
+  font-size: 0.5em;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+a, a:link, a:active, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {  
+  font-family: 'RoslindaleDisplayCondensed-Light';
+  font-size: 20em;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content { 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+}
+
+p { 
+  font-size: 50px;
+}
+p.intro {
+  justify-content: center;
+  font-family: 'Moderat', sans-serif;
+}
+
+p.contact {
+  margin-top: 5vh;
+}
+ 
+p.contact a  {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+p.contact a:hover {
+  background-color: yellow;
+}
+
+ul.projects {
+  list-style-type: none;
+  margin-top: 5vh;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  align-items: center;
+}
+ul.projects a { 
+  font-size: 50px;
+}
+
+ul.social_links {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+li, li a {
+  display: flex;
+  margin: 0 2.5em 0 0;
+}
+ul a:hover { 
+  background-color: yellow;
+}
+li:last-child, li a:last-child {
+  margin-left: 0;
+}
+footer {
+  margin: 5vh;
+ text-transform: uppercase;
+}
+
+img {
+  display: flex;
+  width: 7.5vw;
+  margin: 7.5vh 0;
+  background-color: none;
+}
+
+img a:hover { 
+
+  background-color: red;
+}
+/* Media Queries */
+@media all and (max-width: 1200px) {
+  img {
+    width: 10vw;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  img {
+    width: 15vw;
+  }
+}
+
+@media all and (max-width: 800px) {
+  img {
+    width: 20vw;
+  }
+}
+@media all and (max-width: 600px) {
+  img {
+    width: 25vw;
+  }
+}
