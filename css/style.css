@@ -1,15 +1,15 @@
 /* Typefaces */
 @font-face { 
   font-family: 'NeueMachina-Regular';
-  src: url('./assets/typefaces/NeueMachina-Regular.ttf') format('truetype');
+  src: url('./../assets/typefaces/NeueMachina-Regular.ttf') format('truetype');
 }
 @font-face { 
   font-family: 'GrandSlang-Italic';
-  src: url('./assets/typefaces/GrandSlang-Italic.ttf') format('truetype');
+  src: url('./../assets/typefaces/GrandSlang-Italic.ttf') format('truetype');
 }
 @font-face { 
   font-family: 'SuisseIntl';
-  src: url('./assets/typefaces/SuisseIntl-Regular.otf') format('opentype');
+  src: url('./../assets/typefaces/SuisseIntl-Regular.otf') format('opentype');
 }
 
 /* Styles */
