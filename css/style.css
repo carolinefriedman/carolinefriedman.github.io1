@@ -68,23 +68,23 @@ section {
 
 /* Links */
 ul.contact { 
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  width: 60vw;
+  width: 100%;
   z-index: 999;
 }
 ul.contact li { 
   font-weight: 600;
-  font-size: 3.5em;
+  font-size: 3em;
 }
 ul.contact li a.long { 
-  padding: 0 5px;
+  display: inline-flex;
+  text-transform: uppercase;
 }
 ul.contact li a.short { 
   display: none;
-  padding: 0 5px;
+  text-transform: uppercase;
 }
 
 /* Footer */
@@ -130,7 +130,7 @@ footer .date i {
     display: none;
   }
   ul.contact li a.short { 
-    display: block;
+    display: inline;
   }
   footer { 
     bottom: -7.5vh;
@@ -146,11 +146,23 @@ footer .date i {
   h1 { 
     font-size: 6em;
   }
-  ul.contact li a { 
-    content: "e-mail";
-  }
   footer { 
     bottom: -5vh;
+  }
+  footer .date { 
+    font-size: 15em;
+  }
+}
+@media all and (max-width: 480px) {
+  body { 
+    height: 100%;
+    overflow; hidden;
+  }
+  h1 { 
+    font-size: 5em;
+  }
+  footer { 
+    bottom: 0vh;
   }
   footer .date { 
     font-size: 15em;
