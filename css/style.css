@@ -68,18 +68,18 @@ section {
 
 /* Links */
 ul.contact { 
-  align-items: center;
+  display: flex;
   justify-content: center;
   list-style-type: none;
-  width: 100%;
   z-index: 999;
+  width: 80%;
 }
-ul.contact li { 
+ul.contact li a { 
   font-weight: 600;
   font-size: 3em;
+  padding: 10px;
 }
 ul.contact li a.long { 
-  display: inline-flex;
   text-transform: uppercase;
 }
 ul.contact li a.short { 
