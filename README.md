@@ -1,2 +1,1 @@
-# carolinefriedman.github.io
-Makeshift portfolio [for now]
+# https://www.caroline-friedman.com
